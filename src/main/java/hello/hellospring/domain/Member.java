@@ -9,6 +9,7 @@ import javax.persistence.Id;
 public class Member {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //요구사항 - 아이디, 이름
     private Long id;
     private String name;
 

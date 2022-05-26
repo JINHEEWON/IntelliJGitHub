@@ -12,7 +12,7 @@ public class MemoryMemberRepository implements MemberRepository {
 
     @Override
     public Member save(Member member) {
-        member.setId(++sequence);
+        member.setId(++sequence);     //저장 시 시퀀스 값을 하나 올려줌
         store.put(member.getId(), member);
         return member;
     }

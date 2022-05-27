@@ -15,11 +15,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-//5월 21일 커밋 주석(반성해....)
-//5월 22일 커밋 주석(이직 실패...)
-//5월 24일 복습 후 커밋
-//5월 25일 그냥 커밋
-
 public class JdbcTemplateMemberRepository implements MemberRepository{
 
     private final JdbcTemplate jdbcTemplate;
